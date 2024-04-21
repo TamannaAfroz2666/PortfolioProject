@@ -1,9 +1,15 @@
+import HomePage from "./Navbar/navbar";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
-      <h1>hello</h1>
+    <main className="min-h-screen bg-[#040404]">
+      <div className="pt-4">
+      <HomePage></HomePage>
+      </div>
+  
     </main>
   );
 }
+                                                   
+                                                 

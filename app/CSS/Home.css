@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideBarContainer {
+    /* background-color: #101414; */
+
+}
+
+.timeCls {
+    /* padding: 16px; */
+    margin: 20px;
+
+    background-color: #1d2936e8;
+}
+
+.hoverActive {
+    visibility: hidden;
+}
+.colorHr{
+height: 2px;
+}
+.active:hover .hoverActive {
+    visibility: visible;
+   
+}
