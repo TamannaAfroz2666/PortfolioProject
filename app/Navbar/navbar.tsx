@@ -3,12 +3,13 @@ import { FaFacebook } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaSkype } from "react-icons/fa";
 import Link from 'next/link'
+import InformationImages from '../pages/informationImages';
 
 
 const HomePage = () => {
     return (
-        <div className="min-h-screen w-full ">
-            <div className="homeContainer flex justify-between w-[96%] m-auto pt-4">
+        <div className="min-h-screen w-full homePgeSection">
+            <div className="homeContainer flex justify-between w-[96%] m-auto pt-[40px]">
                 <div className="sideBarContainer">
                     <div className="text-[#fff] uppercase leading-4 text-[12px]">
                         <nav>
@@ -44,6 +45,10 @@ const HomePage = () => {
 
 
                 </div>
+
+            </div>
+            <div className="InformationImageSection  w-[96%] m-auto">
+           <InformationImages></InformationImages>
 
             </div>
 

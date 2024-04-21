@@ -9,9 +9,16 @@
 
 }
 
+.homePgeSection {
+    background-image: linear-gradient(to right, rgba(29, 28, 28, 0.842), rgba(36, 33, 33, 0.925)), url('../../public/Imges/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .timeCls {
     /* padding: 16px; */
-    margin: 20px;
+    /* margin: 20px; */
 
     background-color: #1d2936e8;
 }
@@ -19,10 +26,12 @@
 .hoverActive {
     visibility: hidden;
 }
-.colorHr{
-height: 2px;
+
+.colorHr {
+    height: 2px;
 }
+
 .active:hover .hoverActive {
     visibility: visible;
-   
+
 }
