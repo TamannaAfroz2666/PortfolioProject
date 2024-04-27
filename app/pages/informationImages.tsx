@@ -1,10 +1,11 @@
 import { FaChevronRight } from "react-icons/fa6";
 import { FaPhoneFlip } from "react-icons/fa6";
 import Image from 'next/image'
-import { Button } from 'antd';
+import { Button, Modal } from 'antd';
 import { DownloadOutlined } from '@ant-design/icons';
 import { BiSolidMessage } from "react-icons/bi";
 import { useState } from "react";
+import ModalLayout from "./modalLayout";
 const InformationImages = () => {
   
     return (
@@ -52,12 +53,14 @@ const InformationImages = () => {
                 </div>
 
             </div>
-            <div className=" ">
+            {/* <div className=" ">
                 <Button className="mx-6 px-6 w-[60px]"
                  type="primary" 
                  icon={<BiSolidMessage size={20} />} 
                  style={{ padding: '18px 18px' }}  />
-            </div>
+            </div> */}
+            <ModalLayout></ModalLayout>
+            
         </>
     );
 };
