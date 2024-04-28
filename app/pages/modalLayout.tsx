@@ -39,10 +39,8 @@ const ModalLayout = () => {
                 closeIcon={<IoChevronDown size={20} />}
             >
                 <div className='h-[80px]'>
-
-
+                    <h1>hi there <span></span></h1>
                 </div>
-
             </Modal>
         </div>
     );

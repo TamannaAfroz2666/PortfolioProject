@@ -9,12 +9,39 @@
 
 }
 
-.homePgeSection {
+.imge {
+    width: 60px;
+    height: 50px;
+}
+
+.mainSection {
+    background-image: linear-gradient(to left, #252627e0, #352844);
+}
+
+.homeContainer {
+    background-image: linear-gradient(to left, #252627, #352844bd);
+}
+
+.imge {
+    bottom: 1rem;
+    position: relative;
+}
+
+.emailSection {
+    transition: all 0.3s ease-in-out 0s;
+    color: #ffffff;
+}
+
+.hireMeBtn {
+    background-image: linear-gradient(to left, #134b83, #4a1388);
+}
+
+/* .homePgeSection {
     background-image: linear-gradient(to right, rgba(29, 28, 28, 0.842), rgba(36, 33, 33, 0.925)), url('../../public/Imges/bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .timeCls {
     /* padding: 16px; */
