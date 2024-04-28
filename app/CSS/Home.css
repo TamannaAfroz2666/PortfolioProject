@@ -36,6 +36,16 @@
     background-image: linear-gradient(to left, #134b83, #4a1388);
 }
 
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #770bf1);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 /* .homePgeSection {
     background-image: linear-gradient(to right, rgba(29, 28, 28, 0.842), rgba(36, 33, 33, 0.925)), url('../../public/Imges/bg.jpg');
     background-position: center;

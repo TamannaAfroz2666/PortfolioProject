@@ -10,11 +10,11 @@ const InformationImages = () => {
   
     return (
         <>
-            <div className="flex gap-12 w-[86%] m-auto ">
-                <div className=" ">
-                    <p className="pt-[8rem]  text-[2rem] text-[#14AEB9]  font-semibold tracking-normal animate__animated animate__slideInLeft">I am Gerold</p>
-                    <p className="pt-[.6rem] text-[4rem]  capitalize font-semibold tracking-normal gradient-text">data scientist</p>
-                    <p className="pt-[.2rem] text-[18px] text-[#F8FFFB] capitalize font-semibold tracking-normal"> I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+            <div className="flex gap-12">
+                <div className="w-[60%] ">
+                    <p className="pt-[8rem] text-[1.5rem] text-[#14AEB9] uppercase font-semibold tracking-normal animate__animated animate__slideInLeft">power washing services near me</p>
+                    <p className="pt-[.6rem] text-[2rem] text-[#fff] capitalize font-semibold tracking-normal">Exterior Cleaning that <span className="text-[#14AEB9] pr-2">transforms</span>your property</p>
+                    <p className="pt-[.2rem] text-[2rem] text-[#F8FFFB] capitalize font-semibold tracking-normal"> We'll <span className="text-[#ffff] pr-2 uppercase text-[2.2rem]">instantly </span>restore the look of your home!</p>
                     <div className="flex gap-4 pt-[2rem]">
                         <button className="relative overflow-hidden bg-[#BCAB10] text-[#111] font-bold py-2 px-4 text-[18px] font-sans capitalize rounded transition-all duration-500 hover:bg-blue-700 hover:text-[#fff]">
                             <span className="flex items-center">

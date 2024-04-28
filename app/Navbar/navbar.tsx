@@ -12,8 +12,8 @@ const HomePage = () => {
     return (
         <div className="min-h-screen w-full homePgeSection bg-[#212529] mainSection">
             <div className='homeContainer h-[100px] bg-[#343a40]'>
-                <div className=" flex justify-between w-[96%] m-auto  ">
-                    <div className="contentContainer text-[#fff] mr-[20px] flex gap-8 pt-[40px]">
+                <div className=" flex justify-between w-[86%] m-auto  ">
+                    <div className="contentContainer text-[#fff] mr-[20px] flex gap-[4rem] pt-[40px]">
                         <div>
                             <nav>
 
@@ -36,7 +36,7 @@ const HomePage = () => {
 
 
                     </div>
-                    <div className="sideBarContainer pt-[40px] flex gap-8">
+                    <div className="sideBarContainer pt-[40px] flex gap-[4rem]">
                         <div className="text-[#fff] uppercase text-[14px]">
                             <nav>
                                 <ul className='flex gap-4'>
@@ -57,8 +57,6 @@ const HomePage = () => {
                                 hire me!
                             </button>
                         </div>
-
-
                     </div>
                 </div>
 
