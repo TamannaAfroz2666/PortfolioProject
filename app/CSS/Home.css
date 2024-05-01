@@ -56,7 +56,7 @@
 .timeCls {
     /* padding: 16px; */
     /* margin: 20px; */
-
+/* color: #5503fa; */
     background-color: #1d2936e8;
 }
 
@@ -71,4 +71,10 @@
 .active:hover .hoverActive {
     visibility: visible;
 
+}
+.iconFb{
+    color: #5503fa;
+}
+.iconFb:hover{
+    color: #fff;
 }
