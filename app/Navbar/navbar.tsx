@@ -6,13 +6,14 @@ import Link from 'next/link'
 import InformationImages from '../pages/informationImages';
 import Image from 'next/image';
 import { Button, Modal } from 'antd';
+import QualityService from '../QualityService/qualityService';
 
 
 const HomePage = () => {
     return (
         <div className="min-h-screen w-full homePgeSection bg-[#212529] mainSection">
             <div className='homeContainer h-[100px] bg-[#343a40]'>
-                <div className=" flex justify-between w-[86%] m-auto  ">
+                <div className=" flex justify-between w-[70%] m-auto  ">
                     <div className="contentContainer text-[#fff] mr-[20px] flex gap-[4rem] pt-[40px]">
                         <div>
                             <nav>
@@ -59,13 +60,15 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-
-            <div className="InformationImageSection  w-[96%] m-auto">
+            <div className="InformationImageSection ">
                 <InformationImages></InformationImages>
 
             </div>
+            <div className='w-[70%] m-auto'>
+                <QualityService/>
+            </div>
+            
 
 
 

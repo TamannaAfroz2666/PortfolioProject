@@ -78,3 +78,7 @@
 .iconFb:hover{
     color: #fff;
 }
+.imageSection{
+    height: 440px !important;
+    /* color: #8850f78e; */
+}
