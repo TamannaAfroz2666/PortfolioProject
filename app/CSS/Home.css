@@ -93,3 +93,6 @@
     height: 440px !important;
     /* color: #8850f78e; */
 }
+.customBgColor:hover .sectionBg{
+    background-color: #8750f7;
+}
