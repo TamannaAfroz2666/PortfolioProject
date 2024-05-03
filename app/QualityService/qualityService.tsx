@@ -6,7 +6,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 
 const QualityService = () => {
-    const [customBgColor, setCustomBgColor] = useState(null);
+    // const [customBgColor, setCustomBgColor] = useState(null);
 
     return (
         <div className="w-[70%] m-auto  ">
@@ -27,8 +27,8 @@ const QualityService = () => {
                 <hr color='black' />
                 <div className=''>
                     <div className='inline-flex gap-12  hover:bg-[#8750f7] px-12 py-6'>
-                        <span className='text-[#fff] text-[20px] font-semibold pt-2'>01</span>
-                        <h2 className='text-[#dddddd] text-[30px] font-semibold'>Branding Design</h2>
+                        <span className='text-[#fff] text-[20px] font-semibold pt-2'>02</span>
+                        <h2 className='text-[#dddddd] text-[30px] font-semibold'>Data Analyst</h2>
                         <p className='text-[#dddddd] w-[60%]  tracking-wide px-[8em] leading-[28px]'> I break down complex user experinece problems to create integritiy focussed
                             solutions
                             that connect billions of people</p>
@@ -36,6 +36,31 @@ const QualityService = () => {
                     </div>
 
                 </div>
+                <hr color='black' />
+                <div className=''>
+                    <div className='inline-flex gap-12  hover:bg-[#8750f7] px-12 py-6'>
+                        <span className='text-[#fff] text-[20px] font-semibold pt-2'>03</span>
+                        <h2 className='text-[#dddddd] text-[30px] font-semibold'>Data Visualization </h2>
+                        <p className='text-[#dddddd] w-[60%]  tracking-wide px-[8em] leading-[28px]'> I break down complex user experinece problems to create integritiy focussed
+                            solutions
+                            that connect billions of people</p>
+                        <span className='mt-4'><FaArrowUpLong color='white' className='rotate-45' /></span>
+                    </div>
+
+                </div>
+                <hr color='black' />
+                <div className=''>
+                    <div className='inline-flex gap-12  hover:bg-[#8750f7] px-12 py-6'>
+                        <span className='text-[#fff] text-[20px] font-semibold pt-2'>04</span>
+                        <h2 className='text-[#dddddd] text-[30px] font-semibold'>Software Development </h2>
+                        <p className='text-[#dddddd] w-[60%]  tracking-wide px-[8em] leading-[28px]'> I break down complex user experinece problems to create integritiy focussed
+                            solutions
+                            that connect billions of people</p>
+                        <span className='mt-4'><FaArrowUpLong color='white' className='rotate-45' /></span>
+                    </div>
+
+                </div>
+
 
     
 
