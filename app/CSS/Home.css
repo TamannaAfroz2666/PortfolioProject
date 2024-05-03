@@ -96,3 +96,7 @@
 .customBgColor:hover .sectionBg{
     background-color: #8750f7;
 }
+.sectionBg:hover .iconClass {
+    transform: rotate(140deg);
+    transition: transform 0.8s ease;
+}
